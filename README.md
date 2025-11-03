@@ -161,7 +161,7 @@ yarn add @supabase/supabase-js lucide-react
 
 1. **สร้าง Supabase Project :** เข้าไปที่ [Supabase.com](https://supabase.com/) และสร้างโปรเจกต์ใหม่
 
-2. **ตั้งค่า Environment Variables :** สร้างไฟล์ `.env.local` ในรูทของโปรเจกต์ และเพิ่มค่าที่คุณได้จาก Supabase Project Settings :
+2. **ตั้งค่า Environment Variables :** สร้างไฟล์ `.env.local` ในรูทของโปรเจกต์ และเพิ่มค่าที่คุณได้จาก Supabase Project Settings : ค้นหา Key ได้จาก [https://supabase.com/dashboard/project/xxxxxxxxxxxxxxxxxxxx?showConnect=true&connectTab=frameworks](/) แก้ไข xxxxxxxxxxxxxxxxxxxx ตามโปรเจ็กของคุณ
 
     ```bash
     # .env.local
@@ -169,7 +169,7 @@ yarn add @supabase/supabase-js lucide-react
     NEXT_PUBLIC_SUPABASE_ANON_KEY="your-anon-public-key"
     ```
 
-3. **สร้างตาราง `messages`:** ใน Supabase SQL Editor รันคำสั่งนี้เพื่อสร้างตารางแชทและเปิด Real-time (RLS ถูกปิดไว้ชั่วคราวเพื่อให้ง่ายต่อการทดสอบ):
+3. **สร้างตาราง `messages`:** ใน Supabase SQL Editor รันคำสั่งนี้เพื่อสร้างตารางแชทและเปิด Real-time (RLS ถูกปิดไว้ชั่วคราวเพื่อให้ง่ายต่อการทดสอบ) : มองหาแถบเมนูนำทางด้านซ้ายมือ คลิกที่ไอคอน SQL Editor (มักจะเป็นไอคอนรูป `{ }` หรือ `>_`)
 
     ```sql
     -- ตารางสำหรับเก็บข้อความแชท
