@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../hyper-talk-AI"
+		},
+		{
+			"path": "../hyper-talk-P2P"
+		}
+	],
+	"settings": {}
+}
